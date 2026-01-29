@@ -5,6 +5,7 @@ public class Produto {
     private double preco;
     private int quantidade;
 
+
     public Produto(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
@@ -27,4 +28,7 @@ public class Produto {
     public String toString() {
         return "Produto: " + getNome() + " Preço: " + getPreco() + " quantidade disponível: " + getQuantidade();
     }
+
+
+
 }
